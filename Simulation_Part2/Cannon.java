@@ -8,10 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Cannon extends Actor
 {
-    /**
-     * Act - do whatever the Cannon wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    private static final double CANNON_BALL_VELOCITY = 1500.0;
     public void act()
     {
         MouseInfo mouse = Greenfoot.getMouseInfo();
@@ -51,3 +48,4 @@ public class Cannon extends Actor
             }                          
         }
     }
+}
